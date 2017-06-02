@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteCond %{HTTP_REFERER} !^https://2uf23on0natcctw9md6n4j9gmpx4gad2.okwheat.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://2uf23on0natcctw9md6n4j9gmpx4gad2.okwheat.org$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://okwheat.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://okwheat.org$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.2uf23on0natcctw9md6n4j9gmpx4gad2.okwheat.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.2uf23on0natcctw9md6n4j9gmpx4gad2.okwheat.org$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.okwheat.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.okwheat.org$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp|svg)$ - [F,NC]
+

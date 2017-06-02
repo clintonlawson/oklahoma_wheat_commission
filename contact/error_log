@@ -1,0 +1,2 @@
+[15-Jul-2015 01:45:05 UTC] PHP Fatal error:  Call to a member function GetSelfScript() on a non-object in /home/okwheatadmin/public_html/contact/thank-you.php on line 9
+[15-Jul-2015 01:45:06 UTC] PHP Fatal error:  Call to a member function GetSelfScript() on a non-object in /home/okwheatadmin/public_html/contact/thank-you.php on line 9
